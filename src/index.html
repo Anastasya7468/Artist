@@ -13,9 +13,9 @@
     <!-- Навигация -->
     <nav>
         <div class="nav">
-          <div class="h5">Портфолио</div>
-          <div class="h5">Картины на заказ</div>
-          <div class="h5">Контакты</div>
+          <div class="h5"><a href="#catalog">Каталог</a></div>
+          <div class="h5"><a href="#order">Картины на заказ</a></div>
+          <div class="h5"><a href="#contacts">Контакты</a></div>
         </div>
     </nav>
 
@@ -86,7 +86,7 @@
 
       <!-- Заголовок -->
       <figure class="text-center mb-4">
-        <h1 class="title">Каталог</h1>
+        <h1 id="catalog" class="title">Каталог</h1>
         <h4 class="text">Вы можете приобрести готовые картины из каталога</h4>
       </figure> 
 
@@ -511,6 +511,30 @@
             </div>
           </div>
 
+          <!-- Карточка-18 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card hover text-bg-dark">
+              <img src="/img/Карточка-18.jpg" class="card-img" alt="..." data-bs-toggle="modal" data-bs-target="#exampleModal18">
+              <div class="card-body">
+                <h5 class="card-title">Сидящая фигура<span> 40$</span> </h5>
+                <p><em>Бумага, акварель</em></p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Модальное окно 18-->
+          <div class="modal fade" id="exampleModal18" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+              <div class="modal-content">
+                <div class="modal-body">
+                  <img src="/img/Карточка-18.jpg" alt="..." class="modal-body__card-modal">
+                  <p class="modal-body__text-modal"><em> Изготовлена в 2022 году. Размер картины  19 х 29.5 см. Изделие продается без рамы. На картине изображена сидящая обнаженная женщина в черно-белой живописной манере.. </em></p>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+                </div>
+              </div>
+            </div>
+          </div>
+
         </div>
 
       </div> 
@@ -519,7 +543,7 @@
 
       <!-- Заголовок -->
       <figure class="text-center mb-4">
-        <h1 class="title">Картины на заказ</h1>
+        <h1 id="order" class="title">Картины на заказ</h1>
         <h4 class="text">Вы можете заказать картину с любым сюжетом</h4>
         <p class="text">Для того, чтобы заказать картину необходимо предоставить фотографии высокого качества. Подрамник и раму стоит приобрести отдельно.</p>
       </figure> 
@@ -628,13 +652,56 @@
 
       <!-- Заголовок -->
       <figure class="text-center mb-4">
-        <h1 class="title">Контакты</h1>
-        <h4 class="text">Социальные сети</h4>
-        <!-- <p>larysa852, https://www.facebook.com/profile.php?id=100024342106408, https://vk.com/id236220036</p> -->
-        <h4 class="text">Телефоны для связи</h4>
+        <h1 id="contacts" class="title">Контакты</h1>
       </figure>
-      
 
+      <div class="contacts">
+
+        <div class="me-5">
+          <h4 class="text text-center mb-4">Социальные сети</h4>
+          <div class="icons">
+    
+              <div>
+                <a href="https://www.facebook.com/profile.php?id=100024342106408" target="_blank"> <img src="/icons/Facebook.svg" class="icon me-3" alt="..."></a>
+              </div>
+
+              <div>
+                <a href="https://www.instagram.com/larysa852" target="_blank"><img src="/icons/Instagram.svg" class="icon me-3" alt="..."></a>
+              </div>
+              
+              <div>
+                <a href="https://vk.com/id236220036" target="_blank"><img src="/icons/VK.svg" class="icon me-0" alt="..."></a>
+              </div>
+              
+          </div>
+        </div>
+
+        <div>
+          <h4 class="text text-center mb-4">Телефоны для связи</h4>
+          <div class="icon-phone">
+
+            <div>
+              <p class="text"><img src="/icons/Vodafone.svg" alt=""> +380955679717</p>
+            </div>
+
+            <div >
+              <p class="text"><img src="/icons/Kyivstar.svg" alt=""> +380684421199</p>
+            </div>
+            
+            <div>
+              <p class="text"><img src="/icons/Lifecell.svg" alt=""> +380936045839</p>
+            </div>
+            
+          </div>
+        </div>
+
+      </div>
+
+    <!-- Наверх -->
+
+        <a href="#">
+         <img src="/icons/icon-arrow.svg" alt="" class="arrow">
+        </a>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 </body>
